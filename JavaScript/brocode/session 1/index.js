@@ -1,7 +1,10 @@
-document.getElementById("myh1").textContent = `hello`;
-document.getElementById("myp").textContent = `hey buddy`;
+let online = true
+let BroOnline = "Is bro online?";
 
-let age;
-age = 17;
+console.log(BroOnline)
 
-console.log(`you have ${age} years!!!`)
+    if (online = true) {
+        console.log("Bro is online")
+    } else {
+        console.log("Bro is not online")
+    }
