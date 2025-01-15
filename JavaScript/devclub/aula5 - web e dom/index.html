@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>$</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h2 {
+            font-weight: lighter;
+        }
+    </style>
+</head>
+<body>
+    <h1>Conversor de Dólar</h1>
+    <h2>Com JavaScript</h2>
+    <input placeholder="Valor em reais" type="number">
+    <button onclick="converter()">Converter</button>
+</body>
+<script>
+
+    const valorReal = document.querySelector("input")  //document no js para provcurar elemento  no html
+    
+    function converter() {
+        const valorConvertido = valorReal.value / 5  //mostrando o apenas o valor do input usando o .value
+
+        alert(`O valor convertido é ${valorConvertido}`)
+    }
+   
+
+</script>
+</html>
