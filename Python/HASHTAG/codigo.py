@@ -1,16 +1,13 @@
-#vai tomar o cu piranha
-# escrever o passo a passo
-
 # Sistema: https://dlp.hashtagtreinamentos.com/python/intensivao/login
 
 import pyautogui
 
-# pyautogui.click
-pyautogui.press("win")
+pyautogui.PAUSE = 2
 
-pyautogui.write("chrome")
+# APERTA WINDOWS, ESCREVE CHROME E ENTRA
+pyautogui.press('win')
+pyautogui.write('edge')
+pyautogui.press('enter')
 
-pyautogui.press("enter")
-
-pyautogui.write("https://dlp.hashtagtreinamentos.com/python/intensivao/login")
+# pyautogui.write("https://dlp.hashtagtreinamentos.com/python/intensivao/login")
 
