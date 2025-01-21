@@ -1,0 +1,27 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#constLabel {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    font-size: 10em;
+
+}
+
+.btnContainer {
+    text-align: center;
+}
+
+.btnContainer .btnStyle{
+    background-color: red;
+    padding: 10px 20px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.btnStyle:hover {
+    background-color: darkred;
+}
