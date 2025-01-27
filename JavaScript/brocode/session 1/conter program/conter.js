@@ -18,3 +18,4 @@ apagar.onclick = function() {
     count = 0;
     constLabel.textContent = count;
 }
+
