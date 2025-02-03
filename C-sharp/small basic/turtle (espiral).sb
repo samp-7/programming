@@ -1,0 +1,5 @@
+Turtle.Show()
+For Contador = 1 To 50
+  Turtle.Move(Contador*3)
+  Turtle.TurnRight()
+  EndFor

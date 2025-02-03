@@ -1,0 +1,7 @@
+TextWindow.WriteLine("Vai tomar no cu piranha")
+TextWindow.WriteLine("Digita o número ai vadia")
+PRIMEIRO = TextWindow.Read()
+SEGUNDO = TextWindow.Read()
+RESULTADO = PRIMEIRO+SEGUNDO
+TextWindow.WriteLine("E é esse o número de arrombados que ja comeram esse seu cuzinho preto")
+TextWindow.WriteLine(RESULTADO)

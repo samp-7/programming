@@ -1,0 +1,21 @@
+SENHA = "123"
+TENTATIVAS = 0
+
+TextWindow.WriteLine("Digite a senha:")
+While DIGITADO <> SENHA AND TENTATIVAS <3
+TENTATIVAS = TENTATIVAS + 1
+DIGITADO = TextWindow.Read()
+
+IF DIGITADO <> SENHA And TENTATIVAS <3  Then
+  TextWindow.WriteLine("Senha incorreta parsa tende dnv aikkkk")
+EndIf
+
+EndWhile
+
+If DIGITADO = SENHA Then
+  TextWindow.WriteLine("Acertou paizao")
+Else 
+  TextWindow.WriteLine("Perdeu besta")
+EndIf
+  
+ 

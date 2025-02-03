@@ -1,0 +1,12 @@
+GraphicsWindow.KeyDown = AoPressionarUmaTecla
+
+Sub AoPressionarUmaTecla
+  Tecla = GraphicsWindow.LastKey
+  If Tecla ="A" Then
+    Sound.PlayChime()
+  EndIf
+
+If Tecla = "B" Then
+  Sound.PlayClick()
+EndIf
+  EndSub

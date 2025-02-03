@@ -1,0 +1,13 @@
+TextWindow.WriteLine("Entre com o valor de X:")
+X = TextWindow.Read()
+
+TextWindow.WriteLine("Entre com o valor de Y:")
+Y = TextWindow.Read()
+
+TextWindow.WriteLine("Entre com a Largurs:")
+Largura = TextWindow.Read()
+
+TextWindow.WriteLine("Entre com a altura:")
+Altura = TextWindow.Read()
+
+GraphicsWindow.FillRectangle(X, Y, Largura, Altura)

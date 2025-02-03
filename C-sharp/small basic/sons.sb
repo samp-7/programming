@@ -1,0 +1,11 @@
+GraphicsWindow.MouseDown = QuandoClicarOMouse
+
+Sub QuandoCLicarOMouse
+  If (Mouse.IsLeftButtonDown) Then
+    Sound.PlayBellRing()
+  EndIf
+  
+  If (Mouse.IsRightButtonDown) Then
+    Sound.PlayChime()
+  EndIf
+  EndSub

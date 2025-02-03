@@ -1,0 +1,16 @@
+Resposta = "sim"
+TENTATIVAS = 0
+
+TextWindow.WriteLine("Cuzinho hj?")
+While DIGITADO <> Resposta AND TENTATIVAS <256
+TENTATIVAS = TENTATIVAS + 1
+DIGITADO = TextWindow.Read()
+
+If DIGITADO <> Resposta Then 
+  TextWindow.WriteLine("Cuzinho hj?")
+  
+Else 
+  TextWindow.WriteLine("eitakkk")
+ 
+  EndIf
+EndWhile

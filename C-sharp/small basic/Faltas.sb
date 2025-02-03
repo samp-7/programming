@@ -1,0 +1,23 @@
+TextWindow.WriteLine("Entre com a Primeira nota do ARROMBADINHO:")
+PRIMEIRA= TextWindow.Read()
+TextWindow.WriteLine("Entre com a Segunda nota do ARROMBADINHO:")
+SEGUNDA= TextWindow.Read()
+TextWindow.WriteLine("Entre com o número de faltas a do ARROMBADINHO:")
+FALTAS= TextWindow.Read()
+
+SOMA = PRIMEIRA + SEGUNDA
+MEDIA = SOMA / 2
+
+If MEDIA >= 7 And FALTAS <= 25 Then
+  
+  TextWindow.WriteLine("A média do ARROMBADINHO foi: " + MEDIA)
+  TextWindow.WriteLine("A o número de FALTAS foi: " + MEDIA)
+  TextWindow.WriteLine("ARROMBADINHO APROVADO!") 
+  
+Else
+  
+  TextWindow.WriteLine("A média do ARROMBADINHO foi: " + MEDIA)
+  TextWindow.WriteLine("A o número de FALTAS foi: " + MEDIA)
+  TextWindow.WriteLine("ARROMBADINHO REPROVADO!")
+  
+  EndIf

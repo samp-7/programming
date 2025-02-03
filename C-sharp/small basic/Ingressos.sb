@@ -1,0 +1,5 @@
+TextWindow.WriteLine("Entre com o número de ingressos a emitir:")
+Numerodeingressos = TextWindow.Read()
+For Contador= 1 To Numerodeingressos
+  TextWindow.WriteLine("Imprimir ingresso de número: " + Contador)
+  EndFor

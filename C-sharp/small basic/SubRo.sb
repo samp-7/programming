@@ -1,0 +1,25 @@
+Sub MostraHora
+  TextWindow.WriteLine(Clock.Time)
+  TextWindow.WriteLine("bla bla bla")
+EndSub
+
+TextWindow.WriteLine("Bem-Vindo ao programa!")
+MostraHora()
+
+SENHA = "1010"
+TENTATIVAS = 0
+
+While DIGITADO <> SENHA AND TENTATIVAS <3
+  TextWindow.WriteLine("Digite a senha:")
+TENTATIVAS = TENTATIVAS + 1
+DIGITADO = TextWindow.Read()
+EndWhile
+
+If TENTATIVAS >= 3 Then
+  TextWindow.WriteLine("errou")
+  MostraHora()
+  
+Else 
+  TextWindow.WriteLine("acertou")
+  MostraHora()
+EndIf

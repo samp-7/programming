@@ -1,0 +1,19 @@
+GraphicsWindow.KeyDown = QuandoATeclaForPressionada
+
+Sub QuandoATeclaForPressionada
+  TeclaPressionada = GraphicsWindow.LastKey
+  
+  If (TeclaPressionada="Left")Then
+    Turtle.TurnLeft()
+  EndIf
+  
+  If (TeclaPressionada="Right") Then
+    Turtle.TurnRight()
+  EndIf
+  
+  If (TeclaPressionada="A") Then
+    Turtle.Move(20)
+    EndIf
+    
+  EndSub
+  Turtle.Show()
